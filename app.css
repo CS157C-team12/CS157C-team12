@@ -1,0 +1,74 @@
+html, body {
+    background-image: url("images/wallpaper.jpg") !important;
+}
+
+li {
+    margin: 10px 5px;
+}
+
+.navbar-brand img{
+    height: 2rem;
+}
+
+.category {
+    font-weight: bold;
+}
+
+#navbarSupportedContent{
+    font-size: 17px;
+}
+
+.footer {
+    color: white;
+}
+
+.search {
+    width: 90%;
+    margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: rgb(0, 191, 255);
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear
+}
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 191, 255);
+    font-size: 10px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px
+}
+
+.temp-review {
+    height: 280px;
+}
